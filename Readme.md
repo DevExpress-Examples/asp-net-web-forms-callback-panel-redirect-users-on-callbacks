@@ -1,10 +1,10 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 * [Login.aspx](./CS/Login.aspx) (VB: [Login.aspx](./VB/Login.aspx))
-* [Login.aspx.cs](./CS/Login.aspx.cs) (VB: [Login.aspx](./VB/Login.aspx))
+* [Login.aspx.cs](./CS/Login.aspx.cs) (VB: [Login.aspx.vb](./VB/Login.aspx.vb))
 <!-- default file list end -->
 # How to redirect user on callback
 
