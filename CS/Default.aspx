@@ -30,7 +30,7 @@
                                 ErrorText="Bad email address" />
                         </ValidationSettings>
                     </dx:ASPxTextBox>
-                    <dx:ASPxLabel ID="PasswordLabel" runat="server" Text="Password"></dx:ASPxLabel>
+                    <dx:ASPxLabel ID="PasswordLabel" runat="server" Text="Password:"></dx:ASPxLabel>
                     <dx:ASPxTextBox ID="PasswordTextBox" runat="server" Password="true" Width="170px">
                         <ValidationSettings>
                             <RequiredField IsRequired="true" ErrorText="Password is Required" />
