@@ -6,11 +6,11 @@
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t228312/)**
 <!-- run online end -->
-This example demonstrates how to redirect users on the [Callback Panel](https://docs.devexpress.com/AspNet/8277/components/multi-use-site-controls/callback-panel?p=netframework) control's callback.
+This example demonstrates how to redirect users during the [Callback Panel](https://docs.devexpress.com/AspNet/8277/components/multi-use-site-controls/callback-panel?p=netframework) control's callback.
 
 ![Redirect Users on a Callback](redirect-on-callback.png)
 
-In the example, the callback panel displays a **Login** button and text boxes for an e-mail and password. The panel sends a callback to the server once you click the button. On the server, the [ValidateEditorsInContainer](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxEdit.ValidateEditorsInContainer(System.Web.UI.Control)?p=netframework) method validates text box values. If the text boxes pass validation, the [RedirectOnCallback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxWebControl.RedirectOnCallback(System.String)?p=netframework) method redirects you to the *Login.aspx* page. If the validation fails, one or more error messages appear in the [Validation Summary](https://docs.devexpress.com/AspNet/11626/components/data-editors/validationsummary?p=netframework) control above the text boxes.
+In the example, the callback panel displays a **Login** button and text boxes for an email address and password. The panel sends a callback to the server once you click the button. On the server, the [ValidateEditorsInContainer](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxEdit.ValidateEditorsInContainer(System.Web.UI.Control)?p=netframework) method validates text box values. If they pass validation, the [RedirectOnCallback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxWebControl.RedirectOnCallback(System.String)?p=netframework) method redirects you to the *Login.aspx* page. If the validation fails, one or more error messages appear in the [Validation Summary](https://docs.devexpress.com/AspNet/11626/components/data-editors/validationsummary?p=netframework) control above the text boxes.
 
 ## Files to Review
 
