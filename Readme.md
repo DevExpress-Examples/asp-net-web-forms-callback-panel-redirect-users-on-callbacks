@@ -1,24 +1,24 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128566866/14.2.6%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T228312)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# Callback Panel for ASP.NET Web Forms - How to redirect a user on a callback
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t228312/)**
+<!-- run online end -->
+This example demonstrates how to redirect users during the [Callback Panel](https://docs.devexpress.com/AspNet/8277/components/multi-use-site-controls/callback-panel?p=netframework) control's callback.
+
+![Redirect Users on a Callback](redirect-on-callback.png)
+
+In the example, the callback panel displays a **Login** button and text boxes for an email address and password. The panel sends a callback to the server once you click the button. On the server, the [ValidateEditorsInContainer](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxEdit.ValidateEditorsInContainer(System.Web.UI.Control)?p=netframework) method validates text box values. If they pass validation, the [RedirectOnCallback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxWebControl.RedirectOnCallback(System.String)?p=netframework) method redirects you to the *Login.aspx* page. If validation fails, one or more error messages appear in the [Validation Summary](https://docs.devexpress.com/AspNet/11626/components/data-editors/validationsummary?p=netframework) control above the text boxes.
+
+## Files to Review
 
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 * [Login.aspx](./CS/Login.aspx) (VB: [Login.aspx](./VB/Login.aspx))
 * [Login.aspx.cs](./CS/Login.aspx.cs) (VB: [Login.aspx.vb](./VB/Login.aspx.vb))
-<!-- default file list end -->
-# How to redirect user on callback
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t228312/)**
-<!-- run online end -->
 
+## Documentation
 
-<p>This example demonstrates how to use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxWebControl_RedirectOnCallbacktopic">ASPxWebControl.RedirectOnCallback</a> method to redirect a user on an AJAX request, for example, <a href="https://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxCallbackPaneltopic">ASPxCallbackPanel</a> control callback. With this method, you can implement user login with asynchronous behavior (<a href="https://msdn.microsoft.com/en-us/library/System.Web.UI.WebControls.Login(v=vs.110).aspx">Login Control</a> will reload the page even if the validation fails or redirect the user on successful validation, but in this example, the login process is done asynchronously).</p>
-
-<br/>
-
-
+* [Callbacks](https://docs.devexpress.com/AspNet/402559/common-concepts/callbacks?p=netframework)
