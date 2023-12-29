@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Callback Panel for ASP.NET Web Forms - How to redirect a user on a callback
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128566866/)**
-<!-- run online end -->
 This example demonstrates how to redirect users during the [Callback Panel](https://docs.devexpress.com/AspNet/8277/components/multi-use-site-controls/callback-panel?p=netframework) control's callback.
 
 ![Redirect Users on a Callback](redirect-on-callback.png)
