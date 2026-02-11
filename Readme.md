@@ -22,7 +22,7 @@ In the example, the callback panel displays a **Login** button and text boxes fo
 
 * [Callbacks](https://docs.devexpress.com/AspNet/402559/common-concepts/callbacks?p=netframework)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-callback-panel-redirect-users-on-callbacks&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-callback-panel-redirect-users-on-callbacks&~~~was_helpful=no)
 
